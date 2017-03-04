@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "消息生产者publish", "消息生产者publish\消息生产者publish.csproj", "{68F64087-E0AD-46AB-8264-8CBA47ACA7D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "队列queue通过x-match绑定到交换机并创建消费者consumer", "队列queue通过x-match绑定到交换机并创建消费者consumer\队列queue通过x-match绑定到交换机并创建消费者consumer.csproj", "{086BB1EB-C66C-43B7-BF8F-C35342727EDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68F64087-E0AD-46AB-8264-8CBA47ACA7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F64087-E0AD-46AB-8264-8CBA47ACA7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F64087-E0AD-46AB-8264-8CBA47ACA7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F64087-E0AD-46AB-8264-8CBA47ACA7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086BB1EB-C66C-43B7-BF8F-C35342727EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086BB1EB-C66C-43B7-BF8F-C35342727EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086BB1EB-C66C-43B7-BF8F-C35342727EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086BB1EB-C66C-43B7-BF8F-C35342727EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
